@@ -7,7 +7,7 @@ if (Choice1 == "1")
     Console.Clear();
     Console.WriteLine("You opened the door, only to find the aliens staring right back at you. Before you could react, they attack and kill you.");
     Console.WriteLine("Game over...");
-    Console.ReadLine(); // Bad Ending 1
+    Console.ReadLine(); 
 }
 else if (Choice1 == "2")
 {
@@ -24,7 +24,7 @@ else if (Choice1 == "2")
         Console.Clear();
         Console.WriteLine("You try to block the door hinges, but the noise draws the aliens’ attention. They burst in and kill you.");
         Console.WriteLine("Game over...");
-        Console.ReadLine(); // Bad Ending 2
+        Console.ReadLine(); 
     }
     else if (Choice21 == "2")
     {
@@ -40,8 +40,7 @@ else if (Choice1 == "2")
         {
             Console.Clear();
             Console.WriteLine("You dash for the escape pod. The aliens notice your movement, but you're fast. You launch the pod just in time, narrowly avoiding capture.");
-            Console.WriteLine("You successfully escape the ship. Congratulations, you survived!"); // Good Ending
-            Console.ReadLine();
+            Console.WriteLine("You successfully escape the ship. Congratulations, you survived!"); 
         }
         else if (Choice22 == "2")
         {
@@ -61,7 +60,7 @@ else if (Choice1 == "2")
         Console.Clear();
         Console.WriteLine("As you continue to search, time runs out. The aliens break in, and you are caught off guard.");
         Console.WriteLine("Game over...");
-        Console.ReadLine(); // Bad Ending 3
+        Console.ReadLine(); 
     }
     else
     {
@@ -83,9 +82,9 @@ else if (Choice1 == "3")
         Console.Clear();
         Console.WriteLine("You try to repair the system, but it's too late. The aliens have already reached your location...");
         Console.WriteLine("Game over...");
-        Console.ReadLine(); // Bad Ending 4
-    }
-    else if (Choice31 == "2")
+        Console.ReadLine(); 
+    } 
+    else if (Choice31 == "2")  
     {
         Console.Clear();
         Console.WriteLine("You leave the communication system alone, knowing it's a lost cause. You must find another way out. You turn and head deeper into the ship.");
@@ -100,7 +99,7 @@ else if (Choice1 == "3")
             Console.Clear();
             Console.WriteLine("You enter the maintenance hatch, avoiding the aliens. After a long crawl, you emerge in an escape pod bay.");
             Console.WriteLine("With the aliens hot on your trail, you launch the pod just in time and escape the ship.");
-            Console.WriteLine("You successfully survive! Congratulations!"); // Good Ending (alternate)
+            Console.WriteLine("You successfully survive! Congratulations!"); 
             Console.ReadLine();
         }
         else if (Choice32 == "2")
